@@ -1,0 +1,28 @@
+language: cpp
+
+dist: trusty
+
+compiler: gcc
+
+addons:
+  apt:
+    packages:
+    - gcc
+    - make
+    - libx11-dev
+    - libxft-dev
+
+script:
+  - bash -C ./statcl.sh
+
+deploy:
+  provider: releases
+  api_key: $GITHUB_TOKEN
+  skip_cleanup: true
+  on:
+    tags: true
+  file:
+    - statcl/WishDemo-x86_64.AppImage
+    - statcl/statcl-files.txt
+    - statcl/statcl-info.txt
+    - statcl/statcl-logs.tar.gz

@@ -1,0 +1,10 @@
+#!/bin/sh
+
+AppRun=$(readlink -f "${0}")
+AppDir=$(dirname "${AppRun}")
+
+export PATH="${AppDir}"/bin/
+export LD_LIBRARY_PATH="${AppDir}"/lib/
+export TCLROOT="${AppDir}"
+
+exec "${AppDir}"/bin/wish8.6 "${AppDir}"/lib/tk8.6/demos/widget
