@@ -1,1 +1,2 @@
-url https://github.com/julien-montmartin/staticl/releases/download/8.6.8/statcl-files.txt
+url https://github.com/julien-montmartin/statcl/releases/download/8.6.8/statcl-files.txt
+output statcl-files.txt

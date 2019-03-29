@@ -1,0 +1,12 @@
+url https://github.com/julien-montmartin/statcl/releases/download/8.6.8/statcl-files.txt
+output statcl-files.txt
+url https://github.com/julien-montmartin/statcl/releases/download/8.6.8/statcl-tcl-8.6.8.tar.gz
+output statcl-tcl-8.6.8.tar.gz
+url https://github.com/julien-montmartin/statcl/releases/download/8.6.8/statcl-tk-8.6.8.tar.gz
+output statcl-tk-8.6.8.tar.gz
+url https://github.com/julien-montmartin/statcl/releases/download/8.6.8/statcl-tcllib-1.18.tar.gz
+output statcl-tcllib-1.18.tar.gz
+url https://github.com/julien-montmartin/statcl/releases/download/8.6.8/statcl-tklib-0.6.tar.gz
+output statcl-tklib-0.6.tar.gz
+url https://github.com/julien-montmartin/statcl/releases/download/8.6.8/statcl-tkcon-2.7.1.tar.gz
+output statcl-tkcon-2.7.1.tar.gz
