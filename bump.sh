@@ -2,10 +2,6 @@
 
 . ./packages.sh
 
-msg="Trigger Travis build for Statcl ${version}"
-
-echo "${msg}"
-
 cp curl_base.txt curl.txt
 cp .travis_base.yml .travis.yml
 

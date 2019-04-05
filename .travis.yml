@@ -26,8 +26,8 @@ deploy:
     - statcl/statcl-files.txt
     - statcl/statcl-info.txt
     - statcl/statcl-logs.tar.gz
-    - statcl/statcl-tcl-8.6.8.tar.gz
-    - statcl/statcl-tk-8.6.8.tar.gz
+    - statcl/statcl-tcl-8.6.9.tar.gz
+    - statcl/statcl-tk-8.6.9.tar.gz
     - statcl/statcl-tcllib-1.18.tar.gz
     - statcl/statcl-tklib-0.6.tar.gz
-    - statcl/statcl-tkcon-2.7.1.tar.gz
+    - statcl/statcl-tkcon-2.7.2.tar.gz

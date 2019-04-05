@@ -1,10 +1,10 @@
-version=8.6.8
+version=8.6.9
 
 tclTarget=tcl${version}
 tkTarget=tk${version}
 tclLibTarget=tcllib_1_18
 tkLibTarget=tklib-0.6
-tkConTarget=tkcon-2.7.1
+tkConTarget=tkcon-2.7.2
 
 # Liste les paquets dans le bon ordre (tcl, puis tk, puis le reste)
 buildSeq=${tclTarget}\ ${tkTarget}\ ${tclLibTarget}\ ${tkLibTarget}\ ${tkConTarget}
